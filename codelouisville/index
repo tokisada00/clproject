@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Gaming Page</title>
+    <title>Home</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,32 +21,26 @@
    <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">Testing Code</a>
     </div>
     <div>
       <ul class="nav navbar-nav">
-          <li ><a href="index.html">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="cooking.html">Cooking</a></li>
-        <li class="active"><a href="gaming.html">Gaming</a></li> 
+        <li><a href="gaming.html">Gaming</a></li> 
       </ul>
     </div>
   </div>
 </nav>
-<h1>Videos</h1>
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
-
+<h1>Me</h1>
+	<p>Place Holder</p>
+	<h1>Contact Info</h1>
+	<p>Email:
+  <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+</p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
