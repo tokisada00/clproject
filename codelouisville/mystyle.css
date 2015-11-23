@@ -1,5 +1,4 @@
-body{
-	background-color: #005480;
+body{	background-color: #005480;
 	color: #ffd9b3;
 	text-align: center;
 }
@@ -7,6 +6,11 @@ body{
 	margin-top: 200px;
 	
 }
-.jumbotron { color: #000}
+.jumbotron { color: #000;  background: linear-gradient(to bottom , #fff , #66ccff); border-color: #000}
 li {color:#000}
+
+h4 { text-align: center;}
+@media all and (max-width: 768px) {
+    img {width:200px; height:auto;}
+    }
 
